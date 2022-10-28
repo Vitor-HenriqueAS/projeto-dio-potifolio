@@ -29,14 +29,18 @@
 
 	<main class="main">
 		<header class="header">
-			<img src="assets/img/my-photo.png" alt="Foto Perfil" class="photo">
+			<img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
 
-			<h1 class="title">Olá, <br> eu sou Tutim</h1>
+			<h1 class="title">
+				Olá, <br> eu sou <span id="profile.name">Carregando...</span>
+			</h1>
 
 			<div class="information">
-				<p class="job">Junior Developer</p>
-				<p class="location">São Paulo - BR</p>
-				<p class="email">Vitorhenrique.a12@gmail.com</p>
+				<p class="job" id="profile.job">Carregando...</p>
+				<p class="location" id="profile.location">Carregando...</p>
+				<p class="email">
+					<a href="mailto:ex@gmail.com" id="profile.email">Carregando...</a>
+				</p>
 			</div>
 		</header>
 
@@ -88,7 +92,7 @@
 				</div>
 		</section>
 
-		<section class="acordeon">
+		<!-- <section class="acordeon">
 				<button class="trigger" type="button">
 						<h2>Experiência Profissional</h2>
 				</button>
@@ -97,7 +101,7 @@
 						<ul class="experience" id="profile.professionalExperience">
 						</ul>
 				</div>
-		</section>
+		</section> -->
 
 		<footer>
 				<a href="https://www.dio.me/" target="_blank">
@@ -107,6 +111,8 @@
 	</main>
 
 <script src="assets/js/acordeon.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
